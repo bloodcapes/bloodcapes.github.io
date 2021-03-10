@@ -1,0 +1,162 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background: url(../images/bg.png) repeat-x;
+	text-align: center;
+	margin: 0;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+p {
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	float: left;
+}
+
+#logo a, #logo img {
+	text-decoration: none;
+	border: 0px;
+	text-align: center;
+}
+
+#menu {
+	float: left;
+	margin-left: 240px;
+	margin-top: 230px;
+}
+
+#menu ul {
+	list-style: none;
+	margin:0 auto!important;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	float: left;
+	clear: left;
+
+}
+
+#menu li {
+	display: block;
+	color: #000000;
+	margin-left: 10px;
+	text-align: center;
+	float: left;
+}
+
+#menu a {
+	color: #000000;
+	font-size: 14px;
+	display: block;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#menu a:hover {
+	color: #000000;
+}
+	
+#header {
+	float: left;
+	width: 900px;
+	height: 275px;
+	background: url(../images/naglowek1.png) no-repeat;
+}
+
+.margin1 {
+	margin-left: 15px;
+}
+
+.margin2 {
+	margin-left: 7px;
+}
+
+.margin3 {
+	margin-top: 10px;
+}
+
+#box_news {
+	float: left;
+	width: 550px;
+	padding: 5px;
+}
+
+#box_news h2, #box_fp h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: normal;
+}
+
+#box_news p, #box_fp p {
+	color: #000000;
+	line-height: 20px;
+	text-align: justify;
+	font-size: 13px;
+	font-family: Arial;
+}
+
+#box_news img {
+	border: 1px solid #000000;
+	padding: 5px;
+	margin-right: 15px;
+	-webkit-border-radius: 5px;
+    -khtml-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px;
+
+}
+
+#box_fp {
+	width: 250px;
+	float: right;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+#box_fp a:hover {
+	margin-left: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#container {
+	float: left;
+	width: 900px;
+	padding: 10px;
+	background:  url(../images/bg_content.png) repeat-y;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight:normal;
+	color: #fff;
+}
+
+#footer p {
+	font-size: 12px;
+	color: #000000;
+}
+
+#footer a {
+	color: #000000;
+}
